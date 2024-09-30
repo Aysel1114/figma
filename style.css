@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.wrapper {
+    width: 1440px;
+    height: 1046px;
+    padding-left: 124px;
+    padding-right: 151px;
+    padding-bottom: 157px;
+    font-family: "Roboto", sans-serif;
+}
+
+.photo1 {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    left: 320px;
+    bottom: 25px;
+}
+
+
+.image1 {
+    position: relative;
+    top: 85px;
+    right: 110px;
+}
+
+.photo3 {
+    width: 222px;
+    height: 194px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 81px;
+    position: relative;
+    top: 5px;
+}
+
+.photo4 {
+    width: 189px;
+    height: 32px;
+    margin-left: 35px;
+    margin-top: -15px;
+}
+
+main {
+    display: flex;
+}
+
+h1 {
+    font-size: 55px;
+    font-family: "Roboto Slab", serif;
+    margin: 0px;
+    padding-top: 91px;
+}
+
+.text {
+    width: 662px;
+    height: 396px;
+    font-size: 24px;
+    margin-top: 18px;
+    line-height: 150%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    margin-left: 142px;
+    margin-top: 110px;
+
+}.image2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer p {
+    font-size: 18px;
+    width: 150px;
+    margin-top: 0px;
+    line-height: 130%;
+}
+
+.first-text p {
+    height: 69px;
+}
+
+.second-text p {
+    height: 46px;
+}
+
+.last-text p {
+    height: 39px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    width: 150px;
+    height: 39px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-right: 95px;
+}
+
+@media (max-width: 834px) {
+    .wrapper {
+        padding-left: 72px;
+    }
+
+    .photo3 {
+        display: none;
+    }
+
+    .photo4 {
+        display: none;
+    }
+
+    .photo1 {
+        width: 164px;
+        height: 165px;
+        position: relative;
+        left: 180px;
+        bottom: 20px;
+        padding-left: 129.59px;
+    }
+
+    .image1 {
+        position: relative;
+        top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .photo2 {
+        width: 193px;
+        height: 34px;
+        margin-top: 120px;
+    }
+
+    .footer {
+        margin-left: 0px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .text {
+        font-size: 14px;
+        width: 383.41px;
+        height: 231px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    h2 {
+        font-size: 15px;
+        width: 87px;
+        height: 15px;
+        margin: 0px;
+        padding: 0px;
+        margin-right: 54.9px;
+        margin-bottom: 5px;
+        margin-top: -55px;
+    }
+
+    .footer p {
+        font-size: 11px;
+    }
+
+    .first-text p {
+        width: 87px;
+        height: 42px;
+    }
+
+    .second-text p {
+        width: 108px;
+        height: 23px;
+    }
+
+    .last-text p {
+        width: 87px;
+        height: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    .wrapper {
+        width: 375px;
+        height: 776px;
+        padding-left: 33px;
+        padding-right: 34px;
+        margin-top: -35px;
+    }
+
+    .text {
+        padding-bottom: 32px;
+        width: 308px;
+        height: 198px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .image1 {
+        position: relative;
+        top: 100px;
+    }
+
+    .photo1 {
+        padding: 0px;
+    }
+
+    h2 {
+        padding-top: 90.71px;
+        font-size: 12px;
+        width: 69.9px;
+        height: 18.17px;
+        margin-right: 40.1px;
+    }
+
+    .footer p {
+        font-size: 10px;
+    }
+
+    .first-text p {
+        width: 86px;
+        height: 39px;
+    }
+
+    .second-text p {
+        width: 87px;
+        height: 26px;
+    }
+
+    .last-text p {
+        width: 76px;
+        height: 18px;
+        margin-top: -5px;
+    }
+
+    .last-text {
+        margin-top: -30px;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 100px;
+    }
+}
